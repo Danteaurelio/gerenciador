@@ -22,6 +22,7 @@ urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     url(r'^$', views.lista),
     url(r'adiciona/$', views.adiciona),
+    url(r'^admin/', admin.site.urls ),
 
 
 
