@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 virtualenv at ~/virutalenvs_estudo/aula" project-jdk-type="Python SDK" />
+<<<<<<< HEAD
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="1" />
   </component>
+=======
+>>>>>>> e40b9e8788a8e771bf01112953d17bc201882407
 </project>

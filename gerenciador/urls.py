@@ -19,11 +19,18 @@ from django.contrib import admin
 from agenda import views
 
 urlpatterns = [
+<<<<<<< HEAD
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.lista),
     url(r'^adiciona/$', views.adiciona),
     url(r'^item/(?P<nr_item>\d+)/$', views.item),
     url(r'^remove/(?P<nr_item>\d+)/$', views.remove),
+=======
+    #url(r'^admin/', admin.site.urls),
+    url(r'^$', views.lista),
+    url(r'adiciona/$', views.adiciona),
+    url(r'^admin/', admin.site.urls ),
+>>>>>>> e40b9e8788a8e771bf01112953d17bc201882407
 
 
 

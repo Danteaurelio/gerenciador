@@ -6,7 +6,11 @@
 <p><a href="/help/">Ajuda</a></p>
 <p><a href="/adiciona/">Adicionar novo item</a></p>
 <ul>
+<<<<<<< HEAD
 {% for item in lista_itens %}
+=======
+{% for item in itens_list %}
+>>>>>>> e40b9e8788a8e771bf01112953d17bc201882407
   <li>
     <a href="/remove/{{ item.id }}"><img src="/media/imagens/lixeira.png" /></a>
     <a href="/item/{{ item.id }}">{{ item.data|date:'d/m/Y' }} - {{ item.titulo }}</a>
